@@ -6,5 +6,11 @@ public class DataType
         int i; 
         double f = 2.5;
         boolean flag = true;
+        i = 10;
+        f += i;
+        flag = !flag;
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(flag);
     }
 }
