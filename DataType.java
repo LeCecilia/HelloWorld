@@ -20,5 +20,9 @@
         System.out.println(str1);
         System.out.println(str2);
         System.out.println(str3);
+        String [] array = {"Alpha","Bravo","Charlie","Delta","Echo"};
+        for (int iterate = 0; iterate < array.length; iterate++) {
+        System.out.println(array[iterate]);
     }
+}
 }
