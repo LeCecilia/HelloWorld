@@ -1,4 +1,4 @@
- public class DataType 
+public class DataType 
 {
     public static void main(String[] args) 
     {
@@ -22,7 +22,15 @@
         System.out.println(str3);
         String [] array = {"Alpha","Bravo","Charlie","Delta","Echo"};
         for (int iterate = 0; iterate < array.length; iterate++) {
-        System.out.println(array[iterate]);
+            System.out.println(array[iterate]); 
+        }
+        
+        for (int j = 0; j < array.length; j++) {
+            System.out.print(array[j] + " ");
+        }
+            System.out.println(""); 
+        for (int k = 0; k <array.length; k++) {
+            System.out.print(array[k] + "-");
+        }
     }
-}
 }
